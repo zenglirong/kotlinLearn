@@ -4,6 +4,14 @@ import org.json.JSONObject
 
 // kotlin容器
 fun main() {
+
+    //浮点类型
+    //编辑器同样会根据赋值推断变量的类型
+    val doubleNumber: Double = 3.1415928888
+    val floatNumber: Float = 3.1415928888f//尾部加f或F显式表示这是一个Float类型的浮点数
+    println("float Number:" + floatNumber)
+    println("double Numbel:" + doubleNumber)
+
     // kotlin数组
     // 1。使用array0f创建数组，必须指定数组的元素，可以是任意类型
     val arrayNumber: Array<Int> = arrayOf(1, 2, 3, 4);
